@@ -26,7 +26,6 @@ Good bye!
 ### Player class:
 The player class would be responsible for creating the player1 and player2 objects. These objects would contain a boolean value declaring whether it is the current player's turn, and a decrementing value to track their remaining lives.
 
-
 ### Playfield class
 The playfield class would be responsbile for retreiving the score of each player and outputting the appropriate text to the playfield between turns.
 
@@ -36,7 +35,6 @@ The playfield class would be responsbile for retreiving the score of each player
 The information relevant to the player class is:
 * Whose turn it is 
 * How many lives are remaining
-
 
 ### Playfield class:
 The information relevant to the playfield is:
