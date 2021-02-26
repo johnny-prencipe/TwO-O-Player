@@ -1,6 +1,6 @@
 require './components/player.rb'
 require './components/questions.rb'
-require './components/game.rb'
+require './components/playfield.rb'
 
 p1 = Player.new('Max')
 p2 = Player.new("Jeff")
