@@ -5,15 +5,19 @@ class Questions
     @n2 = rand(1..20)
     @sum = @n1 + @n2
   end
+
   def current_player(player)
     @player = player
   end
+
   def ask_question
     puts "#{@player.name}, What does #{@n1} plus #{@n2} equal?"
   end
+
   def check (answer)
     if answer == @sum 
       true 
     end
+    
   end
 end
