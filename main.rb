@@ -1,6 +1,9 @@
-require "./components/player"
-require "./components/playfield"
+require './components/player.rb'
+require './components/questions.rb'
+require './components/game.rb'
 
-p2        = Player.new('Hero')
-p1        = Player.new('Protagonist')
-Game      = Playfield.new(p1, p2)
+p1 = Player.new('Max')
+p2 = Player.new("Jeff")
+
+new_game = Game.new(p1, p2)
+puts new_game.game
